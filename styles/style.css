@@ -79,7 +79,7 @@ p {
     color: #707070;
 }
 
-.donate-tk-500 {
+.donate-tk:hover {
     border: 3px solid #FF5959;
     padding: 30px;
     border-radius: 5px;
@@ -88,10 +88,22 @@ p {
     color: #707070;
 }
 
-.other-tk {
-    margin-bottom: 10px;
+/* .donate-tk-500:active {
+    border: 3px solid #FF5959;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFEEEE;
+    margin-bottom: 50px;
+    color: #707070;
+} */
+
+.other-tk input {
+    padding: 10px;
     color: #d2cdcd;
     font-size: 25px;
+    border: 0;
+    background: none;
+    text-align: center;
 }
 
 /* donate plan styles */
